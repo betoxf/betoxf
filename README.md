@@ -1,6 +1,6 @@
 # Hi, I'm Humberto Prado.
 
-📍 **Seoul** · **Product builder** · **Native Apple apps, AI products, and operational software**
+📍 **Seoul, South Korea** · **Product builder** · **Native Apple apps, AI products, and operational software**
 
 I build focused software that turns new technology into useful, dependable products—from native macOS tools to AI-assisted workflows and systems for real-world operations.
 
@@ -14,18 +14,21 @@ I build focused software that turns new technology into useful, dependable produ
 
 ## Start here
 
-- **[Usagebar](https://github.com/betoxf/Usagebar)** — A native, privacy-first macOS menu bar app that keeps AI usage limits visible without breaking focus. Open source, lightweight, and available through Homebrew.
-- **[Xerebro](https://github.com/betoxf/xerebro)** — An AI-powered Mac companion for carrying out natural-language tasks remotely through web and iOS clients.
-- **[CaptionSubsGenerator](https://github.com/betoxf/CaptionSubsGenerator)** — A local Whisper-powered workflow for transcribing and translating video into editor-ready SRT captions.
+- **[Usagebar](https://github.com/betoxf/Usagebar)** — A native, privacy-first macOS menu bar app that keeps AI usage limits visible without breaking focus. Open source, lightweight, and available through Homebrew with `brew install --cask betoxf/tap/usagebar`.
 
 ## Current work
 
 Some of my active products remain private while they are in development.
 
-- **xatlas** — A native macOS command environment for projects, terminals, Git, MCPs, skills, and automations.
-- **MeshSystem** — A 3D and IFC workspace for construction projects and building operations.
-- **Postura** — Apple Watch and iPhone movement tracking with 3D posture feedback.
-- **VITADS** — An AI-assisted advertising and video-production workflow.
+- **xatlas** `Private` — A native macOS command environment for projects, terminals, Git, MCPs, skills, and automations.
+- **MeshSystem** `Private` — A 3D and IFC workspace for construction projects and building operations.
+- **Postura** `Prototype` — Apple Watch and iPhone posture-sensing research with 3D feedback.
+- **VITADS Studio** `In development` — An AI-assisted advertising and video-production workflow.
+
+## Open source
+
+- **[App Store Connect CLI](https://github.com/rorkai/App-Store-Connect-CLI)** — Contributor to the App Store automation CLI; my [global agent-skill installation improvement](https://github.com/rorkai/App-Store-Connect-CLI/pull/1636) was merged upstream.
+- **[CaptionSubsGenerator](https://github.com/betoxf/CaptionSubsGenerator)** — An earlier Whisper-powered workflow for transcribing and translating video into editor-ready SRT captions.
 
 ## How I build
 
