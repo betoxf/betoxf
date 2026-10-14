@@ -2,11 +2,12 @@
 
 📍 **Seoul, South Korea** · **Product engineer** · **Native Apple software, applied AI, and operational systems**
 
-I work at the intersection of product design, engineering, and operations—taking ideas from a rough problem to shipped software. Recent work spans macOS developer tools, Apple Watch sensing, visionOS spatial interfaces, AI video workflows, 3D/IFC construction systems, and logistics platforms.
+I work at the intersection of product design, engineering, and operations—taking ideas from a rough problem to shipped software. Recent work spans macOS developer tools, Mac–PC input sharing, Apple Watch sensing, visionOS spatial interfaces, AI video workflows, 3D/IFC construction systems, and logistics platforms.
 
 ![Swift](https://img.shields.io/badge/-Swift-F05138?style=flat-square&logo=swift&logoColor=white)
 ![SwiftUI](https://img.shields.io/badge/-SwiftUI-0062D3?style=flat-square&logo=swift&logoColor=white)
 ![macOS](https://img.shields.io/badge/-macOS-000000?style=flat-square&logo=apple&logoColor=white)
+![Rust](https://img.shields.io/badge/-Rust-000000?style=flat-square&logo=rust&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
 ![React](https://img.shields.io/badge/-React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
 ![Cloudflare](https://img.shields.io/badge/-Cloudflare-F38020?style=flat-square&logo=cloudflare&logoColor=white)
@@ -15,6 +16,7 @@ I work at the intersection of product design, engineering, and operations—taki
 ## Open source
 
 - **[Usagebar](https://github.com/betoxf/Usagebar)** — A native, privacy-first macOS menu bar app that keeps AI usage limits visible without breaking focus. Built in Swift, designed to stay lightweight, and available through Homebrew with `brew install --cask betoxf/tap/usagebar`.
+- **[MagicInput](https://github.com/betoxf/magicinput)** — One keyboard and mouse for your Mac and Windows PC: push the pointer off the edge of one screen and keep going on the other, like Universal Control for PCs. Encrypted, local-network only, with a frosted-glass menu bar panel to arrange your screens (iPad included). Built in Rust; `brew install --cask betoxf/tap/magicinput`.
 
 ## Current work
 
