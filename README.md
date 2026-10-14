@@ -13,10 +13,44 @@ I work at the intersection of product design, engineering, and operations—taki
 ![Cloudflare](https://img.shields.io/badge/-Cloudflare-F38020?style=flat-square&logo=cloudflare&logoColor=white)
 ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)
 
-## Open source
+## Featured open source
 
-- **[Usagebar](https://github.com/betoxf/Usagebar)** — A native, privacy-first macOS menu bar app that keeps AI usage limits visible without breaking focus. Built in Swift, designed to stay lightweight, and available through Homebrew with `brew install --cask betoxf/tap/usagebar`.
-- **[MagicInput](https://github.com/betoxf/magicinput)** — One keyboard and mouse for your Mac and Windows PC: push the pointer off the edge of one screen and keep going on the other, like Universal Control for PCs. Encrypted, local-network only, with a frosted-glass menu bar panel to arrange your screens (iPad included). Built in Rust; `brew install --cask betoxf/tap/magicinput`.
+### [MagicInput](https://github.com/betoxf/magicinput) — one keyboard and mouse, Mac and PC
+
+An MIT-licensed input-sharing app built in Rust. Push the pointer across a screen edge to move between macOS and Windows, then keep typing, clicking, and scrolling. Use either computer’s own mouse or keyboard to take control back.
+
+- **Two-way control:** Mac → Windows and Windows → Mac, with automatic Command/Control swapping.
+- **Your actual desk layout:** arrange displays by dragging them into place, including an iPad connected to the Mac through Sidecar. Auto mode also works without arranging screens.
+- **Shared text clipboard:** copy on one computer and paste on the other.
+- **Local connections:** automatic network discovery, code-based pairing, and encrypted input. No cloud account or telemetry.
+- **Lightweight desktop integration:** menu bar and system tray controls, pointer and scroll settings, and start at login.
+
+**Available for macOS 13+ (Apple silicon and Intel) and Windows 10/11 (64-bit).** The Mac download is signed and notarized. The Windows download is currently unsigned; setup details are in the repository.
+
+```bash
+brew install --cask betoxf/tap/magicinput
+```
+
+[Download for Mac or Windows](https://github.com/betoxf/magicinput/releases/latest) · [Setup guide](https://github.com/betoxf/magicinput#quick-start) · [Architecture](https://github.com/betoxf/magicinput/blob/main/docs/ARCHITECTURE.md) · [Report an issue](https://github.com/betoxf/magicinput/issues)
+
+### [Usagebar](https://github.com/betoxf/Usagebar) — AI usage at a glance
+
+A native, privacy-first macOS menu bar app for tracking Claude and Codex usage limits without breaking focus. Built in Swift to keep the information close and the app lightweight.
+
+```bash
+brew install --cask betoxf/tap/usagebar
+```
+
+[Downloads](https://github.com/betoxf/Usagebar/releases/latest) · [Source and setup](https://github.com/betoxf/Usagebar)
+
+### [CaptionSubsGenerator](https://github.com/betoxf/CaptionSubsGenerator) — captions for video workflows
+
+A Python tool that transcribes video with Whisper, translates captions, and exports SRT subtitles for video editors. Choose a Whisper model to balance speed and accuracy; additional language translation uses the OpenAI API.
+
+## Other public work
+
+- **[Xerebro](https://github.com/betoxf/xerebro)** — An AI-powered Mac companion for remote computer interaction through natural-language requests. The public repository documents screenshots, mouse and keyboard control, terminal commands, and web/iOS access. Distributed under a proprietary license.
+- **[Homebrew tap](https://github.com/betoxf/homebrew-tap)** — Installation and update distribution for my macOS apps, including Usagebar and MagicInput.
 
 ## Current work
 
@@ -26,6 +60,13 @@ Some of my active products remain private while they are in development.
 - **MeshSystem** `Private` — A 3D and IFC workspace for construction projects and building operations.
 - **Postura** `Prototype` — Apple Watch and iPhone posture-sensing research with 3D feedback.
 - **VITADS Studio** `In development` — An AI-assisted advertising and video-production workflow.
+
+## Engineering focus
+
+- **Native desktop software:** Swift, SwiftUI, macOS integration, and small utilities that fit everyday workflows.
+- **Systems and device interaction:** Rust, cross-platform input, networking, and desktop services.
+- **Applied AI:** tools for developer workflows, computer interaction, transcription, and media production.
+- **Web and operations:** TypeScript, React, Cloudflare, and software that connects product interfaces with real business processes.
 
 ## How I build
 
