@@ -15,7 +15,7 @@ I work at the intersection of product design, engineering, and operations—taki
 
 ## Featured open source
 
-### [MagicInput](https://github.com/betoxf/magicinput) — one keyboard and mouse, Mac and PC
+### [MagicInput](https://github.com/betoxf/Magicinput) — one keyboard and mouse, Mac and PC
 
 An MIT-licensed input-sharing app built in Rust. Push the pointer across a screen edge to move between macOS and Windows, then keep typing, clicking, and scrolling. Use either computer’s own mouse or keyboard to take control back.
 
@@ -31,7 +31,7 @@ An MIT-licensed input-sharing app built in Rust. Push the pointer across a scree
 brew install --cask betoxf/tap/magicinput
 ```
 
-[Download for Mac or Windows](https://github.com/betoxf/magicinput/releases/latest) · [Setup guide](https://github.com/betoxf/magicinput#quick-start) · [Architecture](https://github.com/betoxf/magicinput/blob/main/docs/ARCHITECTURE.md) · [Report an issue](https://github.com/betoxf/magicinput/issues)
+[Download for Mac or Windows](https://github.com/betoxf/Magicinput/releases/latest) · [Setup guide](https://github.com/betoxf/Magicinput#quick-start) · [Architecture](https://github.com/betoxf/Magicinput/blob/main/docs/ARCHITECTURE.md) · [Report an issue](https://github.com/betoxf/Magicinput/issues)
 
 ### [Usagebar](https://github.com/betoxf/Usagebar) — AI usage at a glance
 
