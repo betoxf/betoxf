@@ -15,6 +15,26 @@ I work at the intersection of product design, engineering, and operations—taki
 
 ## Featured open source
 
+### [UCU](https://github.com/betoxf/universal-computer-use) — AI agents that use your Mac in the background
+
+An Apache-2.0 MCP server that lets Claude Code, opencode, and other MCP clients operate your Mac’s apps without moving your pointer or taking focus. UCU (Universal Computer Use) is an unofficial bridge to the Computer Use engine in the ChatGPT desktop app.
+
+- **Works in the background:** agents click, type, and read other apps while you keep working.
+- **Reaches apps without an accessibility tree:** agents can click by position in a background window. Some remote-desktop and canvas apps ignore background input.
+- **You choose the apps:** every app is approved except the ones you deny.
+- **Shows who did what:** each approval is logged with the agent and folder that caused it.
+- **Light when idle:** the engine stops between uses and restarts on the next call.
+
+**Available for macOS.** Requires the ChatGPT desktop app with Computer Use set up in Codex.
+
+```bash
+git clone https://github.com/betoxf/universal-computer-use.git
+cd universal-computer-use
+./ucu install
+```
+
+[Source and setup](https://github.com/betoxf/universal-computer-use#install) · [Before you use it](https://github.com/betoxf/universal-computer-use#before-you-use-it)
+
 ### [MagicInput](https://github.com/betoxf/Magicinput) — one keyboard and mouse, Mac and PC
 
 An MIT-licensed input-sharing app built in Rust. Push the pointer across a screen edge to move between macOS and Windows, then keep typing, clicking, and scrolling. Use either computer’s own mouse or keyboard to take control back.
@@ -43,14 +63,9 @@ brew install --cask betoxf/tap/usagebar
 
 [Downloads](https://github.com/betoxf/Usagebar/releases/latest) · [Source and setup](https://github.com/betoxf/Usagebar)
 
-### [CaptionSubsGenerator](https://github.com/betoxf/CaptionSubsGenerator) — captions for video workflows
-
-A Python tool that transcribes video with Whisper, translates captions, and exports SRT subtitles for video editors. Choose a Whisper model to balance speed and accuracy; additional language translation uses the OpenAI API.
-
 ## Other public work
 
 - **[Xerebro](https://github.com/betoxf/xerebro)** — An AI-powered Mac companion for remote computer interaction through natural-language requests. The public repository documents screenshots, mouse and keyboard control, terminal commands, and web/iOS access. Distributed under a proprietary license.
-- **[Homebrew tap](https://github.com/betoxf/homebrew-tap)** — Installation and update distribution for my macOS apps, including Usagebar and MagicInput.
 
 ## Current work
 
@@ -59,7 +74,9 @@ Some of my active products remain private while they are in development.
 - **xatlas** `Private` — A native macOS command environment for projects, terminals, Git, MCPs, skills, and automations.
 - **MeshSystem** `Private` — A 3D and IFC workspace for construction projects and building operations.
 - **Postura** `Prototype` — Apple Watch and iPhone posture-sensing research with 3D feedback.
-- **VITADS Studio** `In development` — An AI-assisted advertising and video-production workflow.
+- **Omma Trucking** `Private` — A transportation and logistics platform for dispatch, fleet, drivers, payroll, and documents, on web and mobile.
+- **Haulio** `Private` — A trucking operations platform.
+- **Motiq** `In development` — An AI-assisted advertising and video-production workflow.
 
 ## Engineering focus
 
