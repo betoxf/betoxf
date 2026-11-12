@@ -37,7 +37,7 @@ cd universal-computer-use
 
 ### [MagicInput](https://github.com/betoxf/Magicinput) — one keyboard and mouse, Mac and PC
 
-An MIT-licensed input-sharing app built in Rust. Push the pointer across a screen edge to move between macOS and Windows, then keep typing, clicking, and scrolling. Use either computer’s own mouse or keyboard to take control back.
+A Rust input-sharing app, source-available and free for personal use under the PolyForm Noncommercial License 1.0.0. Push the pointer across a screen edge to move between macOS and Windows, then keep typing, clicking, and scrolling. Use either computer’s own mouse or keyboard to take control back.
 
 - **Two-way control:** Mac → Windows and Windows → Mac, with automatic Command/Control swapping.
 - **Your actual desk layout:** arrange displays by dragging them into place, including an iPad connected to the Mac through Sidecar. Auto mode also works without arranging screens.
@@ -55,7 +55,7 @@ brew install --cask betoxf/tap/magicinput
 
 ### [Usagebar](https://github.com/betoxf/Usagebar) — AI usage at a glance
 
-A native, privacy-first macOS menu bar app for tracking Claude and Codex usage limits without breaking focus. Built in Swift to keep the information close and the app lightweight.
+A native, privacy-first macOS menu bar app for tracking Claude Code, Codex, Cursor, Kimi Code, z.ai and DeepSeek usage limits without breaking focus. Built in Swift to keep the information close and the app lightweight.
 
 ```bash
 brew install --cask betoxf/tap/usagebar
