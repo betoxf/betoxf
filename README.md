@@ -84,6 +84,14 @@ brew install --cask betoxf/tap/usagebar
 
 [Downloads](https://github.com/betoxf/Usagebar/releases/latest) · [Source and setup](https://github.com/betoxf/Usagebar)
 
+## iOS apps on the App Store
+
+- **[Timer - Dial & Stopwatch](https://apps.apple.com/app/id6742770129)** — A countdown you set by dragging around a dial: release to start, eight dial faces, no ads or account.
+- **[Skipaword - Speed Reading](https://apps.apple.com/app/id6758225981)** — RSVP speed reading that shows one to three words at a time, from 200 to 2,500 words per minute.
+- **[Learn Korean - Cardio](https://apps.apple.com/app/id6748281385)** — Daily Korean practice with 1,000+ visual flashcards, pronunciation audio, Hangul writing, and spaced repetition.
+- **[MeshSystem](https://apps.apple.com/app/id6795379471)** — A live 3D digital twin of a building, with comfort by floor and zone and HVAC equipment context.
+- **[Foret Pilates](https://apps.apple.com/app/id6759946798)** — The class booking and schedule app for a classical Pilates studio in Chuncheon, South Korea.
+
 ## Other public work
 
 - **[Xerebro](https://github.com/betoxf/xerebro)** — An AI-powered Mac companion for remote computer interaction through natural-language requests. The public repository documents screenshots, mouse and keyboard control, terminal commands, and web/iOS access. Distributed under a proprietary license.
