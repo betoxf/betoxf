@@ -15,6 +15,27 @@ I work at the intersection of product design, engineering, and operations—taki
 
 ## Featured open source
 
+### [xatlas](https://github.com/betoxf/xatlas) — the full engineering harness
+
+An Apache-2.0 desktop app that puts all your AI coding subscriptions in one place. Claude Code, Codex, Gemini CLI and OpenCode run on your own plans, in your project's folder, and a built-in orchestrator can hand a whole job to a team of agents that plans, builds and reviews it. Built on ZCode.
+
+- **Every agent you pay for:** pick Claude Code, Codex, Gemini CLI or OpenCode per conversation; each runs as its own CLI with its own instructions, skills and MCP servers.
+- **Their work, visible:** every file read, edit and command an agent makes shows as a card with its result.
+- **Jobs, not just chats (experimental):** switch a message to Orchestrate and it becomes a plan, steps built side by side in their own worktrees, each reviewed by a different agent.
+- **Merging stays yours:** a job ends as reviewed branches, and the release queue shows which pull requests can ship together.
+- **Projects at a glance:** every project is a stack of its conversations, most urgent in front.
+
+**Available for macOS 14+.** No installers yet; run it from source.
+
+```bash
+git clone https://github.com/betoxf/xatlas.git
+cd xatlas
+pnpm bootstrap
+pnpm dev:desktop:sandbox
+```
+
+[Source and setup](https://github.com/betoxf/xatlas#build-from-source) · [The orchestrator](https://github.com/betoxf/xatlas#the-orchestrator) · [Report an issue](https://github.com/betoxf/xatlas/issues)
+
 ### [UCU](https://github.com/betoxf/universal-computer-use) — AI agents that use your Mac in the background
 
 An Apache-2.0 MCP server that lets Claude Code, opencode, and other MCP clients operate your Mac’s apps without moving your pointer or taking focus. UCU (Universal Computer Use) is an unofficial bridge to the Computer Use engine in the ChatGPT desktop app.
@@ -71,7 +92,6 @@ brew install --cask betoxf/tap/usagebar
 
 Some of my active products remain private while they are in development.
 
-- **xatlas** `Private` — A native macOS command environment for projects, terminals, Git, MCPs, skills, and automations.
 - **MeshSystem** `Private` — A 3D and IFC workspace for construction projects and building operations.
 - **Postura** `Prototype` — Apple Watch and iPhone posture-sensing research with 3D feedback.
 - **Omma Trucking** `Private` — A transportation and logistics platform for dispatch, fleet, drivers, payroll, and documents, on web and mobile.
