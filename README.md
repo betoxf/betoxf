@@ -118,5 +118,9 @@ I can help with:
 
 To start, email **[contact@bullfighterstudio.com](mailto:contact@bullfighterstudio.com)** with what you want to build, where it stands today, and your timeline.
 
+## Connect
+
+I'm interested in thoughtful collaborations around native Apple software, practical AI tools, and applied product engineering.
+
 [![X](https://img.shields.io/badge/-@this__is__beto-000000?style=flat-square&logo=x&logoColor=white)](https://x.com/this_is_beto)
 [![GitHub](https://img.shields.io/badge/-Follow-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/betoxf)
