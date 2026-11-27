@@ -106,23 +106,17 @@ Some of my active products remain private while they are in development.
 - **Haulio** `Private` — A trucking operations platform.
 - **Motiq** `In development` — An AI-assisted advertising and video-production workflow.
 
-## Engineering focus
+## Work with me
 
-- **Native desktop software:** Swift, SwiftUI, macOS integration, and small utilities that fit everyday workflows.
-- **Systems and device interaction:** Rust, cross-platform input, networking, and desktop services.
-- **Applied AI:** tools for developer workflows, computer interaction, transcription, and media production.
-- **Web and operations:** TypeScript, React, Cloudflare, and software that connects product interfaces with real business processes.
+I'm based in Seoul, South Korea, and work with founders and teams remotely or in person in Korea.
 
-## How I build
+I can help with:
 
-- Start with a real problem and reduce it to the smallest useful product.
-- Prefer native experiences when platform integration and performance matter.
-- Keep privacy-sensitive workflows local-first whenever possible.
-- Own the path from product design and implementation through testing and release.
+- **Native Apple apps:** iPhone, iPad, Mac, Apple Watch and visionOS, from first design to App Store release.
+- **AI tools and agent workflows:** developer tooling, computer use, transcription and media production.
+- **Operations software:** web apps, dashboards and mobile apps that connect to how a business actually runs.
 
-## Connect
-
-I'm interested in thoughtful collaborations around native Apple software, practical AI tools, and applied product engineering.
+To start, email **[contact@bullfighterstudio.com](mailto:contact@bullfighterstudio.com)** with what you want to build, where it stands today, and your timeline.
 
 [![X](https://img.shields.io/badge/-@this__is__beto-000000?style=flat-square&logo=x&logoColor=white)](https://x.com/this_is_beto)
 [![GitHub](https://img.shields.io/badge/-Follow-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/betoxf)
